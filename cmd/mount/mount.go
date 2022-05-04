@@ -11,9 +11,9 @@ import (
 
 	"bazil.org/fuse"
 	fusefs "bazil.org/fuse/fs"
-	"github.com/rclone/rclone/cmd/mountlib"
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/vfs"
+	"github.com/MilkGames/rclone/cmd/mountlib"
+	"github.com/MilkGames/rclone/fs"
+	"github.com/MilkGames/rclone/vfs"
 )
 
 func init() {

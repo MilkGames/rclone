@@ -9,7 +9,7 @@ import (
 	"sync/atomic"
 	"syscall"
 
-	"github.com/rclone/rclone/fs"
+	"github.com/MilkGames/rclone/fs"
 	"golang.org/x/sys/unix"
 )
 

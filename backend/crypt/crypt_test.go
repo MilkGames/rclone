@@ -6,13 +6,13 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/rclone/rclone/backend/crypt"
-	_ "github.com/rclone/rclone/backend/drive" // for integration tests
-	_ "github.com/rclone/rclone/backend/local"
-	_ "github.com/rclone/rclone/backend/swift" // for integration tests
-	"github.com/rclone/rclone/fs/config/obscure"
-	"github.com/rclone/rclone/fstest"
-	"github.com/rclone/rclone/fstest/fstests"
+	"github.com/MilkGames/rclone/backend/crypt"
+	_ "github.com/MilkGames/rclone/backend/drive" // for integration tests
+	_ "github.com/MilkGames/rclone/backend/local"
+	_ "github.com/MilkGames/rclone/backend/swift" // for integration tests
+	"github.com/MilkGames/rclone/fs/config/obscure"
+	"github.com/MilkGames/rclone/fstest"
+	"github.com/MilkGames/rclone/fstest/fstests"
 )
 
 // TestIntegration runs integration tests against the remote

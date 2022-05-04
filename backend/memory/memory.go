@@ -14,12 +14,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fs/config/configmap"
-	"github.com/rclone/rclone/fs/config/configstruct"
-	"github.com/rclone/rclone/fs/hash"
-	"github.com/rclone/rclone/fs/walk"
-	"github.com/rclone/rclone/lib/bucket"
+	"github.com/MilkGames/rclone/fs"
+	"github.com/MilkGames/rclone/fs/config/configmap"
+	"github.com/MilkGames/rclone/fs/config/configstruct"
+	"github.com/MilkGames/rclone/fs/hash"
+	"github.com/MilkGames/rclone/fs/walk"
+	"github.com/MilkGames/rclone/lib/bucket"
 )
 
 var (

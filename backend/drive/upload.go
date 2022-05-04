@@ -20,9 +20,9 @@ import (
 	"net/url"
 	"strconv"
 
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fs/fserrors"
-	"github.com/rclone/rclone/lib/readers"
+	"github.com/MilkGames/rclone/fs"
+	"github.com/MilkGames/rclone/fs/fserrors"
+	"github.com/MilkGames/rclone/lib/readers"
 	"google.golang.org/api/drive/v3"
 	"google.golang.org/api/googleapi"
 )

@@ -11,10 +11,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/rclone/rclone/backend/union/common"
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fs/cache"
-	"github.com/rclone/rclone/fs/fspath"
+	"github.com/MilkGames/rclone/backend/union/common"
+	"github.com/MilkGames/rclone/fs"
+	"github.com/MilkGames/rclone/fs/cache"
+	"github.com/MilkGames/rclone/fs/fspath"
 )
 
 var (

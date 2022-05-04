@@ -11,13 +11,13 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fs/dirtree"
-	"github.com/rclone/rclone/fs/list"
-	"github.com/rclone/rclone/fs/log"
-	"github.com/rclone/rclone/fs/operations"
-	"github.com/rclone/rclone/fs/walk"
-	"github.com/rclone/rclone/vfs/vfscommon"
+	"github.com/MilkGames/rclone/fs"
+	"github.com/MilkGames/rclone/fs/dirtree"
+	"github.com/MilkGames/rclone/fs/list"
+	"github.com/MilkGames/rclone/fs/log"
+	"github.com/MilkGames/rclone/fs/operations"
+	"github.com/MilkGames/rclone/fs/walk"
+	"github.com/MilkGames/rclone/vfs/vfscommon"
 )
 
 // Dir represents a directory entry

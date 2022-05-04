@@ -4,9 +4,9 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fstest/mockdir"
-	"github.com/rclone/rclone/fstest/mockobject"
+	"github.com/MilkGames/rclone/fs"
+	"github.com/MilkGames/rclone/fstest/mockdir"
+	"github.com/MilkGames/rclone/fstest/mockobject"
 	"github.com/stretchr/testify/assert"
 )
 

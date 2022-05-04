@@ -10,11 +10,11 @@ import (
 	"time"
 	"unicode/utf8"
 
-	"github.com/rclone/rclone/fs/rc"
+	"github.com/MilkGames/rclone/fs/rc"
 
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fs/asyncreader"
-	"github.com/rclone/rclone/fs/fserrors"
+	"github.com/MilkGames/rclone/fs"
+	"github.com/MilkGames/rclone/fs/asyncreader"
+	"github.com/MilkGames/rclone/fs/fserrors"
 )
 
 // ErrorMaxTransferLimitReached defines error when transfer limit is reached.

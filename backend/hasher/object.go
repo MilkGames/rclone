@@ -9,9 +9,9 @@ import (
 	"path"
 	"time"
 
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fs/hash"
-	"github.com/rclone/rclone/fs/operations"
+	"github.com/MilkGames/rclone/fs"
+	"github.com/MilkGames/rclone/fs/hash"
+	"github.com/MilkGames/rclone/fs/operations"
 )
 
 // obtain hash for an object

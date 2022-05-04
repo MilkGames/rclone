@@ -22,7 +22,7 @@ See the [install](https://rclone.org/install/) documentation for more details.
 | MIPS - Big Endian | - | - | {{< download linux mips >}} | {{< download linux mips deb >}} | {{< download linux mips rpm >}} | - | - | - | - | - |
 | MIPS - Little Endian | - | - | {{< download linux mipsle >}} | {{< download linux mipsle deb >}} | {{< download linux mipsle rpm >}} | - | - | - | - | - |
 
-You can also find a [mirror of the downloads on GitHub](https://github.com/rclone/rclone/releases/tag/{{< version >}}).
+You can also find a [mirror of the downloads on GitHub](https://github.com/MilkGames/rclone/releases/tag/{{< version >}}).
 
 ## Script download and install ##
 
@@ -50,7 +50,7 @@ e.g.
 
 The `Version Tag` is the version that the beta release will become
 when it is released. You can match the `Git Commit Hash` up with the
-[git log](https://github.com/rclone/rclone/commits/master).  The most
+[git log](https://github.com/MilkGames/rclone/commits/master).  The most
 recent release will have the largest `Version Tag` and `Commit Number`
 and will normally be at the end of the list.
 

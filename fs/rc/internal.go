@@ -14,10 +14,10 @@ import (
 
 	"github.com/coreos/go-semver/semver"
 
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fs/config/obscure"
-	"github.com/rclone/rclone/lib/atexit"
-	"github.com/rclone/rclone/lib/buildinfo"
+	"github.com/MilkGames/rclone/fs"
+	"github.com/MilkGames/rclone/fs/config/obscure"
+	"github.com/MilkGames/rclone/lib/atexit"
+	"github.com/MilkGames/rclone/lib/buildinfo"
 )
 
 func init() {

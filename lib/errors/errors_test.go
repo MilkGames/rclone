@@ -7,7 +7,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	liberrors "github.com/rclone/rclone/lib/errors"
+	liberrors "github.com/MilkGames/rclone/lib/errors"
 )
 
 func TestWalk(t *testing.T) {

@@ -10,8 +10,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/vfs/vfscommon"
+	"github.com/MilkGames/rclone/fs"
+	"github.com/MilkGames/rclone/vfs/vfscommon"
 )
 
 const (

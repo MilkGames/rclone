@@ -23,16 +23,16 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/rclone/rclone/cmd"
-	"github.com/rclone/rclone/cmd/cmount"
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fs/config/flags"
-	"github.com/rclone/rclone/fs/fshttp"
-	"github.com/rclone/rclone/lib/buildinfo"
-	"github.com/rclone/rclone/lib/random"
+	"github.com/MilkGames/rclone/cmd"
+	"github.com/MilkGames/rclone/cmd/cmount"
+	"github.com/MilkGames/rclone/fs"
+	"github.com/MilkGames/rclone/fs/config/flags"
+	"github.com/MilkGames/rclone/fs/fshttp"
+	"github.com/MilkGames/rclone/lib/buildinfo"
+	"github.com/MilkGames/rclone/lib/random"
 	"github.com/spf13/cobra"
 
-	versionCmd "github.com/rclone/rclone/cmd/version"
+	versionCmd "github.com/MilkGames/rclone/cmd/version"
 )
 
 // Options contains options for the self-update command

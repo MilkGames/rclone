@@ -9,7 +9,7 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/rclone/rclone/fs/accounting"
+	"github.com/MilkGames/rclone/fs/accounting"
 )
 
 // SigInfoHandler creates SigInfo handler

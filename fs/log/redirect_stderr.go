@@ -8,7 +8,7 @@ package log
 import (
 	"os"
 
-	"github.com/rclone/rclone/fs"
+	"github.com/MilkGames/rclone/fs"
 )
 
 // redirectStderr to the file passed in

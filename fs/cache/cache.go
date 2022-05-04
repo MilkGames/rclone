@@ -6,9 +6,9 @@ import (
 	"runtime"
 	"sync"
 
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fs/filter"
-	"github.com/rclone/rclone/lib/cache"
+	"github.com/MilkGames/rclone/fs"
+	"github.com/MilkGames/rclone/fs/filter"
+	"github.com/MilkGames/rclone/lib/cache"
 )
 
 var (

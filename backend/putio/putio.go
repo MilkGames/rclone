@@ -5,13 +5,13 @@ import (
 	"regexp"
 	"time"
 
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fs/config"
-	"github.com/rclone/rclone/fs/config/configmap"
-	"github.com/rclone/rclone/fs/config/obscure"
-	"github.com/rclone/rclone/lib/dircache"
-	"github.com/rclone/rclone/lib/encoder"
-	"github.com/rclone/rclone/lib/oauthutil"
+	"github.com/MilkGames/rclone/fs"
+	"github.com/MilkGames/rclone/fs/config"
+	"github.com/MilkGames/rclone/fs/config/configmap"
+	"github.com/MilkGames/rclone/fs/config/obscure"
+	"github.com/MilkGames/rclone/lib/dircache"
+	"github.com/MilkGames/rclone/lib/encoder"
+	"github.com/MilkGames/rclone/lib/oauthutil"
 	"golang.org/x/oauth2"
 )
 

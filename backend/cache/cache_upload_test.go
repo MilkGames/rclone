@@ -13,9 +13,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/rclone/rclone/backend/cache"
-	_ "github.com/rclone/rclone/backend/drive"
-	"github.com/rclone/rclone/fs"
+	"github.com/MilkGames/rclone/backend/cache"
+	_ "github.com/MilkGames/rclone/backend/drive"
+	"github.com/MilkGames/rclone/fs"
 	"github.com/stretchr/testify/require"
 )
 

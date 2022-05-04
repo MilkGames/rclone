@@ -6,8 +6,8 @@ package mount2
 import (
 	"testing"
 
-	"github.com/rclone/rclone/fstest/testy"
-	"github.com/rclone/rclone/vfs/vfstest"
+	"github.com/MilkGames/rclone/fstest/testy"
+	"github.com/MilkGames/rclone/vfs/vfstest"
 )
 
 func TestMount(t *testing.T) {

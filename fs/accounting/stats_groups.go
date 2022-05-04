@@ -4,9 +4,9 @@ import (
 	"context"
 	"sync"
 
-	"github.com/rclone/rclone/fs/rc"
+	"github.com/MilkGames/rclone/fs/rc"
 
-	"github.com/rclone/rclone/fs"
+	"github.com/MilkGames/rclone/fs"
 )
 
 const globalStats = "global_stats"

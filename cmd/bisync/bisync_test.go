@@ -23,25 +23,25 @@ import (
 	"testing"
 	"time"
 
-	"github.com/rclone/rclone/cmd/bisync"
-	"github.com/rclone/rclone/cmd/bisync/bilib"
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fs/accounting"
-	"github.com/rclone/rclone/fs/cache"
-	"github.com/rclone/rclone/fs/filter"
-	"github.com/rclone/rclone/fs/fspath"
-	"github.com/rclone/rclone/fs/object"
-	"github.com/rclone/rclone/fs/operations"
-	"github.com/rclone/rclone/fs/sync"
-	"github.com/rclone/rclone/fstest"
-	"github.com/rclone/rclone/lib/atexit"
-	"github.com/rclone/rclone/lib/random"
+	"github.com/MilkGames/rclone/cmd/bisync"
+	"github.com/MilkGames/rclone/cmd/bisync/bilib"
+	"github.com/MilkGames/rclone/fs"
+	"github.com/MilkGames/rclone/fs/accounting"
+	"github.com/MilkGames/rclone/fs/cache"
+	"github.com/MilkGames/rclone/fs/filter"
+	"github.com/MilkGames/rclone/fs/fspath"
+	"github.com/MilkGames/rclone/fs/object"
+	"github.com/MilkGames/rclone/fs/operations"
+	"github.com/MilkGames/rclone/fs/sync"
+	"github.com/MilkGames/rclone/fstest"
+	"github.com/MilkGames/rclone/lib/atexit"
+	"github.com/MilkGames/rclone/lib/random"
 
 	"github.com/pmezard/go-difflib/difflib"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	_ "github.com/rclone/rclone/backend/all" // for integration tests
+	_ "github.com/MilkGames/rclone/backend/all" // for integration tests
 )
 
 const (

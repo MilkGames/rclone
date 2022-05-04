@@ -14,9 +14,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fs/config/configmap"
-	"github.com/rclone/rclone/lib/oauthutil"
+	"github.com/MilkGames/rclone/fs"
+	"github.com/MilkGames/rclone/fs/config/configmap"
+	"github.com/MilkGames/rclone/lib/oauthutil"
 
 	"golang.org/x/oauth2"
 	"golang.org/x/oauth2/jws"

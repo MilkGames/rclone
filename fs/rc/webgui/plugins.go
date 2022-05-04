@@ -14,9 +14,9 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fs/config"
-	"github.com/rclone/rclone/fs/rc/rcflags"
+	"github.com/MilkGames/rclone/fs"
+	"github.com/MilkGames/rclone/fs/config"
+	"github.com/MilkGames/rclone/fs/rc/rcflags"
 )
 
 // PackageJSON is the structure of package.json of a plugin
@@ -228,10 +228,10 @@ func (p *Plugins) GetPluginByName(name string) (out *PackageJSON, err error) {
 
 // getAuthorRepoBranchGithub gives author, repoName and branch from a github.com url
 //	url examples:
-//	https://github.com/rclone/rclone-webui-react/
-//	http://github.com/rclone/rclone-webui-react
-//	https://github.com/rclone/rclone-webui-react/tree/caman-js
-// 	github.com/rclone/rclone-webui-react
+//	https://github.com/MilkGames/rclone-webui-react/
+//	http://github.com/MilkGames/rclone-webui-react
+//	https://github.com/MilkGames/rclone-webui-react/tree/caman-js
+// 	github.com/MilkGames/rclone-webui-react
 //
 func getAuthorRepoBranchGithub(url string) (author string, repoName string, branch string, err error) {
 	repoURL := url

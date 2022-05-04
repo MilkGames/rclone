@@ -17,14 +17,14 @@ import (
 
 	"github.com/mitchellh/go-homedir"
 
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fs/cache"
-	"github.com/rclone/rclone/fs/config/configmap"
-	"github.com/rclone/rclone/fs/config/obscure"
-	"github.com/rclone/rclone/fs/fspath"
-	"github.com/rclone/rclone/fs/rc"
-	"github.com/rclone/rclone/lib/file"
-	"github.com/rclone/rclone/lib/random"
+	"github.com/MilkGames/rclone/fs"
+	"github.com/MilkGames/rclone/fs/cache"
+	"github.com/MilkGames/rclone/fs/config/configmap"
+	"github.com/MilkGames/rclone/fs/config/obscure"
+	"github.com/MilkGames/rclone/fs/fspath"
+	"github.com/MilkGames/rclone/fs/rc"
+	"github.com/MilkGames/rclone/lib/file"
+	"github.com/MilkGames/rclone/lib/random"
 )
 
 const (
@@ -64,7 +64,7 @@ const (
 // persistent storage. Rclone provides a default implementation to
 // load and save to a config file when this is imported
 //
-// import "github.com/rclone/rclone/fs/config/configfile"
+// import "github.com/MilkGames/rclone/fs/config/configfile"
 // configfile.Install()
 type Storage interface {
 	// GetSectionList returns a slice of strings with names for all the

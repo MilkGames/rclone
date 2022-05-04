@@ -18,12 +18,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fs/config/configmap"
-	"github.com/rclone/rclone/fs/config/configstruct"
-	"github.com/rclone/rclone/fs/fshttp"
-	"github.com/rclone/rclone/fs/hash"
-	"github.com/rclone/rclone/lib/rest"
+	"github.com/MilkGames/rclone/fs"
+	"github.com/MilkGames/rclone/fs/config/configmap"
+	"github.com/MilkGames/rclone/fs/config/configstruct"
+	"github.com/MilkGames/rclone/fs/fshttp"
+	"github.com/MilkGames/rclone/fs/hash"
+	"github.com/MilkGames/rclone/lib/rest"
 	"golang.org/x/net/html"
 )
 

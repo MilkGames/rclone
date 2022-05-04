@@ -7,12 +7,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fs/accounting"
-	"github.com/rclone/rclone/fs/filter"
-	"github.com/rclone/rclone/fs/rc"
-	"github.com/rclone/rclone/fs/rc/rcflags"
-	"github.com/rclone/rclone/fstest/testy"
+	"github.com/MilkGames/rclone/fs"
+	"github.com/MilkGames/rclone/fs/accounting"
+	"github.com/MilkGames/rclone/fs/filter"
+	"github.com/MilkGames/rclone/fs/rc"
+	"github.com/MilkGames/rclone/fs/rc/rcflags"
+	"github.com/MilkGames/rclone/fstest/testy"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

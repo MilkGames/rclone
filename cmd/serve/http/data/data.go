@@ -11,8 +11,8 @@ import (
 
 	"github.com/spf13/pflag"
 
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fs/config/flags"
+	"github.com/MilkGames/rclone/fs"
+	"github.com/MilkGames/rclone/fs/config/flags"
 )
 
 // Help describes the options for the serve package

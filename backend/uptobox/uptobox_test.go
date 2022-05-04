@@ -4,9 +4,9 @@ package uptobox_test
 import (
 	"testing"
 
-	"github.com/rclone/rclone/backend/uptobox"
-	"github.com/rclone/rclone/fstest"
-	"github.com/rclone/rclone/fstest/fstests"
+	"github.com/MilkGames/rclone/backend/uptobox"
+	"github.com/MilkGames/rclone/fstest"
+	"github.com/MilkGames/rclone/fstest/fstests"
 )
 
 // TestIntegration runs integration tests against the remote

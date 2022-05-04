@@ -8,7 +8,7 @@ import (
 	"log"
 	"path"
 
-	"github.com/rclone/rclone/fs"
+	"github.com/MilkGames/rclone/fs"
 	yaml "gopkg.in/yaml.v2"
 )
 

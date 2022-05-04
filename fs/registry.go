@@ -11,8 +11,8 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/rclone/rclone/fs/config/configmap"
-	"github.com/rclone/rclone/fs/config/configstruct"
+	"github.com/MilkGames/rclone/fs/config/configmap"
+	"github.com/MilkGames/rclone/fs/config/configstruct"
 )
 
 // Registry of filesystems

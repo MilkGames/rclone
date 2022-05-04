@@ -4,11 +4,11 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/rclone/rclone/cmd/bisync/bilib"
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fs/filter"
-	"github.com/rclone/rclone/fs/operations"
-	"github.com/rclone/rclone/fs/sync"
+	"github.com/MilkGames/rclone/cmd/bisync/bilib"
+	"github.com/MilkGames/rclone/fs"
+	"github.com/MilkGames/rclone/fs/filter"
+	"github.com/MilkGames/rclone/fs/operations"
+	"github.com/MilkGames/rclone/fs/sync"
 )
 
 func (b *bisyncRun) fastCopy(ctx context.Context, fsrc, fdst fs.Fs, files bilib.Names, queueName string) error {

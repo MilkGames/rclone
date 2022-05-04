@@ -9,8 +9,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fstest/fstests"
+	"github.com/MilkGames/rclone/fs"
+	"github.com/MilkGames/rclone/fstest/fstests"
 	"github.com/stretchr/testify/assert"
 )
 

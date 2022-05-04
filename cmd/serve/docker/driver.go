@@ -15,13 +15,13 @@ import (
 
 	sysdnotify "github.com/iguanesolutions/go-systemd/v5/notify"
 
-	"github.com/rclone/rclone/cmd/mountlib"
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fs/config"
-	"github.com/rclone/rclone/lib/atexit"
-	"github.com/rclone/rclone/lib/file"
-	"github.com/rclone/rclone/vfs/vfscommon"
-	"github.com/rclone/rclone/vfs/vfsflags"
+	"github.com/MilkGames/rclone/cmd/mountlib"
+	"github.com/MilkGames/rclone/fs"
+	"github.com/MilkGames/rclone/fs/config"
+	"github.com/MilkGames/rclone/lib/atexit"
+	"github.com/MilkGames/rclone/lib/file"
+	"github.com/MilkGames/rclone/vfs/vfscommon"
+	"github.com/MilkGames/rclone/vfs/vfsflags"
 )
 
 // Driver implements docker driver api

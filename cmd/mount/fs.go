@@ -11,11 +11,11 @@ import (
 
 	"bazil.org/fuse"
 	fusefs "bazil.org/fuse/fs"
-	"github.com/rclone/rclone/cmd/mountlib"
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fs/fserrors"
-	"github.com/rclone/rclone/fs/log"
-	"github.com/rclone/rclone/vfs"
+	"github.com/MilkGames/rclone/cmd/mountlib"
+	"github.com/MilkGames/rclone/fs"
+	"github.com/MilkGames/rclone/fs/fserrors"
+	"github.com/MilkGames/rclone/fs/log"
+	"github.com/MilkGames/rclone/vfs"
 )
 
 // FS represents the top level filing system

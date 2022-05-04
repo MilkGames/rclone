@@ -14,13 +14,13 @@ import (
 	"strings"
 	"unicode/utf8"
 
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fs/config/configmap"
-	"github.com/rclone/rclone/fs/config/configstruct"
-	"github.com/rclone/rclone/fs/config/obscure"
-	"github.com/rclone/rclone/fs/driveletter"
-	"github.com/rclone/rclone/fs/fspath"
-	"github.com/rclone/rclone/lib/terminal"
+	"github.com/MilkGames/rclone/fs"
+	"github.com/MilkGames/rclone/fs/config/configmap"
+	"github.com/MilkGames/rclone/fs/config/configstruct"
+	"github.com/MilkGames/rclone/fs/config/obscure"
+	"github.com/MilkGames/rclone/fs/driveletter"
+	"github.com/MilkGames/rclone/fs/fspath"
+	"github.com/MilkGames/rclone/lib/terminal"
 	"golang.org/x/text/unicode/norm"
 )
 

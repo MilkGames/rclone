@@ -10,7 +10,7 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/rclone/rclone/fs"
+	"github.com/MilkGames/rclone/fs"
 )
 
 // StartDaemon runs background twin of current process.

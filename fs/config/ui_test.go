@@ -11,11 +11,11 @@ import (
 	"os"
 	"testing"
 
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fs/config"
-	"github.com/rclone/rclone/fs/config/configfile"
-	"github.com/rclone/rclone/fs/config/obscure"
-	"github.com/rclone/rclone/fs/rc"
+	"github.com/MilkGames/rclone/fs"
+	"github.com/MilkGames/rclone/fs/config"
+	"github.com/MilkGames/rclone/fs/config/configfile"
+	"github.com/MilkGames/rclone/fs/config/obscure"
+	"github.com/MilkGames/rclone/fs/rc"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

@@ -4,11 +4,11 @@ package union_test
 import (
 	"testing"
 
-	_ "github.com/rclone/rclone/backend/local"
-	_ "github.com/rclone/rclone/backend/memory"
-	"github.com/rclone/rclone/backend/union"
-	"github.com/rclone/rclone/fstest"
-	"github.com/rclone/rclone/fstest/fstests"
+	_ "github.com/MilkGames/rclone/backend/local"
+	_ "github.com/MilkGames/rclone/backend/memory"
+	"github.com/MilkGames/rclone/backend/union"
+	"github.com/MilkGames/rclone/fstest"
+	"github.com/MilkGames/rclone/fstest/fstests"
 )
 
 // TestIntegration runs integration tests against the remote

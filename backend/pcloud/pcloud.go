@@ -17,20 +17,20 @@ import (
 	"strings"
 	"time"
 
-	"github.com/rclone/rclone/backend/pcloud/api"
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fs/config"
-	"github.com/rclone/rclone/fs/config/configmap"
-	"github.com/rclone/rclone/fs/config/configstruct"
-	"github.com/rclone/rclone/fs/config/obscure"
-	"github.com/rclone/rclone/fs/fserrors"
-	"github.com/rclone/rclone/fs/hash"
-	"github.com/rclone/rclone/fs/walk"
-	"github.com/rclone/rclone/lib/dircache"
-	"github.com/rclone/rclone/lib/encoder"
-	"github.com/rclone/rclone/lib/oauthutil"
-	"github.com/rclone/rclone/lib/pacer"
-	"github.com/rclone/rclone/lib/rest"
+	"github.com/MilkGames/rclone/backend/pcloud/api"
+	"github.com/MilkGames/rclone/fs"
+	"github.com/MilkGames/rclone/fs/config"
+	"github.com/MilkGames/rclone/fs/config/configmap"
+	"github.com/MilkGames/rclone/fs/config/configstruct"
+	"github.com/MilkGames/rclone/fs/config/obscure"
+	"github.com/MilkGames/rclone/fs/fserrors"
+	"github.com/MilkGames/rclone/fs/hash"
+	"github.com/MilkGames/rclone/fs/walk"
+	"github.com/MilkGames/rclone/lib/dircache"
+	"github.com/MilkGames/rclone/lib/encoder"
+	"github.com/MilkGames/rclone/lib/oauthutil"
+	"github.com/MilkGames/rclone/lib/pacer"
+	"github.com/MilkGames/rclone/lib/rest"
 	"golang.org/x/oauth2"
 )
 
@@ -340,7 +340,7 @@ func NewFs(ctx context.Context, name, root string, m configmap.Mapper) (fs.Fs, e
 		}
 		// XXX: update the old f here instead of returning tempF, since
 		// `features` were already filled with functions having *f as a receiver.
-		// See https://github.com/rclone/rclone/issues/2182
+		// See https://github.com/MilkGames/rclone/issues/2182
 		f.dirCache = tempF.dirCache
 		f.root = tempF.root
 		// return an error with an fs which points to the parent

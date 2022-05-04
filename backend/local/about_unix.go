@@ -9,7 +9,7 @@ import (
 	"os"
 	"syscall"
 
-	"github.com/rclone/rclone/fs"
+	"github.com/MilkGames/rclone/fs"
 )
 
 // About gets quota information

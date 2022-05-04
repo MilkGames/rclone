@@ -4,10 +4,10 @@ import (
 	"context"
 	"testing"
 
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fs/rc"
-	"github.com/rclone/rclone/fstest"
-	"github.com/rclone/rclone/vfs/vfscommon"
+	"github.com/MilkGames/rclone/fs"
+	"github.com/MilkGames/rclone/fs/rc"
+	"github.com/MilkGames/rclone/fstest"
+	"github.com/MilkGames/rclone/vfs/vfscommon"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

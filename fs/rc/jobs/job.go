@@ -11,10 +11,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fs/accounting"
-	"github.com/rclone/rclone/fs/filter"
-	"github.com/rclone/rclone/fs/rc"
+	"github.com/MilkGames/rclone/fs"
+	"github.com/MilkGames/rclone/fs/accounting"
+	"github.com/MilkGames/rclone/fs/filter"
+	"github.com/MilkGames/rclone/fs/rc"
 )
 
 // Job describes an asynchronous task started via the rc package

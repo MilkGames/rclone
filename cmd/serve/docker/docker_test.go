@@ -18,21 +18,21 @@ import (
 	"testing"
 	"time"
 
-	"github.com/rclone/rclone/cmd/mountlib"
-	"github.com/rclone/rclone/cmd/serve/docker"
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fs/config"
-	"github.com/rclone/rclone/fstest"
-	"github.com/rclone/rclone/fstest/testy"
-	"github.com/rclone/rclone/lib/file"
+	"github.com/MilkGames/rclone/cmd/mountlib"
+	"github.com/MilkGames/rclone/cmd/serve/docker"
+	"github.com/MilkGames/rclone/fs"
+	"github.com/MilkGames/rclone/fs/config"
+	"github.com/MilkGames/rclone/fstest"
+	"github.com/MilkGames/rclone/fstest/testy"
+	"github.com/MilkGames/rclone/lib/file"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	_ "github.com/rclone/rclone/backend/local"
-	_ "github.com/rclone/rclone/backend/memory"
-	_ "github.com/rclone/rclone/cmd/cmount"
-	_ "github.com/rclone/rclone/cmd/mount"
+	_ "github.com/MilkGames/rclone/backend/local"
+	_ "github.com/MilkGames/rclone/backend/memory"
+	_ "github.com/MilkGames/rclone/cmd/cmount"
+	_ "github.com/MilkGames/rclone/cmd/mount"
 )
 
 func initialise(ctx context.Context, t *testing.T) (string, fs.Fs) {

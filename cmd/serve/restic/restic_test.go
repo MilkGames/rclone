@@ -12,9 +12,9 @@ import (
 	"os/exec"
 	"testing"
 
-	_ "github.com/rclone/rclone/backend/all"
-	"github.com/rclone/rclone/cmd/serve/httplib"
-	"github.com/rclone/rclone/fstest"
+	_ "github.com/MilkGames/rclone/backend/all"
+	"github.com/MilkGames/rclone/cmd/serve/httplib"
+	"github.com/MilkGames/rclone/fstest"
 	"github.com/stretchr/testify/assert"
 )
 

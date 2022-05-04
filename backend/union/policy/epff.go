@@ -4,8 +4,8 @@ import (
 	"context"
 	"path"
 
-	"github.com/rclone/rclone/backend/union/upstream"
-	"github.com/rclone/rclone/fs"
+	"github.com/MilkGames/rclone/backend/union/upstream"
+	"github.com/MilkGames/rclone/fs"
 )
 
 func init() {

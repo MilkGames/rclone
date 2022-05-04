@@ -10,11 +10,11 @@ import (
 	"sort"
 	"time"
 
-	"github.com/rclone/rclone/cmd/mountlib"
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fs/config"
-	"github.com/rclone/rclone/fs/rc"
-	"github.com/rclone/rclone/lib/file"
+	"github.com/MilkGames/rclone/cmd/mountlib"
+	"github.com/MilkGames/rclone/fs"
+	"github.com/MilkGames/rclone/fs/config"
+	"github.com/MilkGames/rclone/fs/rc"
+	"github.com/MilkGames/rclone/lib/file"
 )
 
 // Errors

@@ -137,7 +137,7 @@ Client ID and Key by following the steps below:
 Now the application is complete. Run `rclone config` to create or edit a OneDrive remote.
 Supply the app ID and password as Client ID and Secret, respectively. rclone will walk you through the remaining steps.
 
-The `Sites.Read.All` permission is required if you need to [search SharePoint sites when configuring the remote](https://github.com/rclone/rclone/pull/5883). However, if that permission is not assigned, you need to set `disable_site_permission` option to true in the advanced options.
+The `Sites.Read.All` permission is required if you need to [search SharePoint sites when configuring the remote](https://github.com/MilkGames/rclone/pull/5883). However, if that permission is not assigned, you need to set `disable_site_permission` option to true in the advanced options.
 
 ### Modification time and hashes
 
@@ -518,7 +518,7 @@ The entire path, including the file name, must contain fewer than 400 characters
 OneDrive seems to be OK with at least 50,000 files in a folder, but at
 100,000 rclone will get errors listing the directory like `couldn’t
 list files: UnknownError:`.  See
-[#2707](https://github.com/rclone/rclone/issues/2707) for more info.
+[#2707](https://github.com/MilkGames/rclone/issues/2707) for more info.
 
 An official document about the limitations for different types of OneDrive can be found [here](https://support.office.com/en-us/article/invalid-file-names-and-file-types-in-onedrive-onedrive-for-business-and-sharepoint-64883a5d-228e-48f5-b3d2-eb39e07630fa).
 

@@ -3,10 +3,10 @@ package sha1sum
 import (
 	"context"
 
-	"github.com/rclone/rclone/cmd"
-	"github.com/rclone/rclone/cmd/hashsum"
-	"github.com/rclone/rclone/fs/hash"
-	"github.com/rclone/rclone/fs/operations"
+	"github.com/MilkGames/rclone/cmd"
+	"github.com/MilkGames/rclone/cmd/hashsum"
+	"github.com/MilkGames/rclone/fs/hash"
+	"github.com/MilkGames/rclone/fs/operations"
 	"github.com/spf13/cobra"
 )
 

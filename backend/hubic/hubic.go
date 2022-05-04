@@ -17,13 +17,13 @@ import (
 	"time"
 
 	swiftLib "github.com/ncw/swift/v2"
-	"github.com/rclone/rclone/backend/swift"
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fs/config/configmap"
-	"github.com/rclone/rclone/fs/config/configstruct"
-	"github.com/rclone/rclone/fs/config/obscure"
-	"github.com/rclone/rclone/fs/fshttp"
-	"github.com/rclone/rclone/lib/oauthutil"
+	"github.com/MilkGames/rclone/backend/swift"
+	"github.com/MilkGames/rclone/fs"
+	"github.com/MilkGames/rclone/fs/config/configmap"
+	"github.com/MilkGames/rclone/fs/config/configstruct"
+	"github.com/MilkGames/rclone/fs/config/obscure"
+	"github.com/MilkGames/rclone/fs/fshttp"
+	"github.com/MilkGames/rclone/lib/oauthutil"
 	"golang.org/x/oauth2"
 )
 

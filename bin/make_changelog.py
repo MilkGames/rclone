@@ -164,7 +164,7 @@ def main():
 
 ## %(next_version)s - %(today)s
 
-[See commits](https://github.com/rclone/rclone/compare/%(version)s...%(next_version)s)
+[See commits](https://github.com/MilkGames/rclone/compare/%(version)s...%(next_version)s)
 
 * New backends
 * New commands

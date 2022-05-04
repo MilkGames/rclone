@@ -11,7 +11,7 @@ import (
 	"os"
 	"path"
 
-	"github.com/rclone/rclone/fs"
+	"github.com/MilkGames/rclone/fs"
 )
 
 var (

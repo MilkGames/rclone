@@ -23,14 +23,14 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/rclone/rclone/cmd/serve/proxy"
-	"github.com/rclone/rclone/cmd/serve/proxy/proxyflags"
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fs/config"
-	"github.com/rclone/rclone/lib/env"
-	"github.com/rclone/rclone/lib/file"
-	"github.com/rclone/rclone/vfs"
-	"github.com/rclone/rclone/vfs/vfsflags"
+	"github.com/MilkGames/rclone/cmd/serve/proxy"
+	"github.com/MilkGames/rclone/cmd/serve/proxy/proxyflags"
+	"github.com/MilkGames/rclone/fs"
+	"github.com/MilkGames/rclone/fs/config"
+	"github.com/MilkGames/rclone/lib/env"
+	"github.com/MilkGames/rclone/lib/file"
+	"github.com/MilkGames/rclone/vfs"
+	"github.com/MilkGames/rclone/vfs/vfsflags"
 	"golang.org/x/crypto/ssh"
 )
 

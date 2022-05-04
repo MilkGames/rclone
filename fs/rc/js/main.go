@@ -17,17 +17,17 @@ import (
 	"runtime"
 	"syscall/js"
 
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fs/rc"
+	"github.com/MilkGames/rclone/fs"
+	"github.com/MilkGames/rclone/fs/rc"
 
 	// Core functionality we need
-	_ "github.com/rclone/rclone/fs/operations"
-	_ "github.com/rclone/rclone/fs/sync"
+	_ "github.com/MilkGames/rclone/fs/operations"
+	_ "github.com/MilkGames/rclone/fs/sync"
 
-	//	_ "github.com/rclone/rclone/backend/all" // import all backends
+	//	_ "github.com/MilkGames/rclone/backend/all" // import all backends
 
 	// Backends
-	_ "github.com/rclone/rclone/backend/memory"
+	_ "github.com/MilkGames/rclone/backend/memory"
 )
 
 var (

@@ -15,15 +15,15 @@ import (
 	"time"
 
 	"github.com/putdotio/go-putio/putio"
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fs/config/configmap"
-	"github.com/rclone/rclone/fs/config/configstruct"
-	"github.com/rclone/rclone/fs/fshttp"
-	"github.com/rclone/rclone/fs/hash"
-	"github.com/rclone/rclone/lib/dircache"
-	"github.com/rclone/rclone/lib/oauthutil"
-	"github.com/rclone/rclone/lib/pacer"
-	"github.com/rclone/rclone/lib/readers"
+	"github.com/MilkGames/rclone/fs"
+	"github.com/MilkGames/rclone/fs/config/configmap"
+	"github.com/MilkGames/rclone/fs/config/configstruct"
+	"github.com/MilkGames/rclone/fs/fshttp"
+	"github.com/MilkGames/rclone/fs/hash"
+	"github.com/MilkGames/rclone/lib/dircache"
+	"github.com/MilkGames/rclone/lib/oauthutil"
+	"github.com/MilkGames/rclone/lib/pacer"
+	"github.com/MilkGames/rclone/lib/readers"
 )
 
 // Fs represents a remote Putio server
@@ -118,7 +118,7 @@ func NewFs(ctx context.Context, name, root string, m configmap.Mapper) (f fs.Fs,
 		}
 		// XXX: update the old f here instead of returning tempF, since
 		// `features` were already filled with functions having *f as a receiver.
-		// See https://github.com/rclone/rclone/issues/2182
+		// See https://github.com/MilkGames/rclone/issues/2182
 		p.dirCache = tempF.dirCache
 		p.root = tempF.root
 		return p, fs.ErrorIsFile

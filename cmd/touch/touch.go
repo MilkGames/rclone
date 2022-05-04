@@ -8,12 +8,12 @@ import (
 	"log"
 	"time"
 
-	"github.com/rclone/rclone/cmd"
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fs/config/flags"
-	"github.com/rclone/rclone/fs/fspath"
-	"github.com/rclone/rclone/fs/object"
-	"github.com/rclone/rclone/fs/operations"
+	"github.com/MilkGames/rclone/cmd"
+	"github.com/MilkGames/rclone/fs"
+	"github.com/MilkGames/rclone/fs/config/flags"
+	"github.com/MilkGames/rclone/fs/fspath"
+	"github.com/MilkGames/rclone/fs/object"
+	"github.com/MilkGames/rclone/fs/operations"
 	"github.com/spf13/cobra"
 )
 

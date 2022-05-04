@@ -17,11 +17,11 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	_ "github.com/rclone/rclone/backend/local"
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fs/accounting"
-	"github.com/rclone/rclone/fs/config/configfile"
-	"github.com/rclone/rclone/fs/rc"
+	_ "github.com/MilkGames/rclone/backend/local"
+	"github.com/MilkGames/rclone/fs"
+	"github.com/MilkGames/rclone/fs/accounting"
+	"github.com/MilkGames/rclone/fs/config/configfile"
+	"github.com/MilkGames/rclone/fs/rc"
 )
 
 const (

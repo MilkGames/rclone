@@ -3,14 +3,14 @@ package serve
 import (
 	"errors"
 
-	"github.com/rclone/rclone/cmd"
-	"github.com/rclone/rclone/cmd/serve/dlna"
-	"github.com/rclone/rclone/cmd/serve/docker"
-	"github.com/rclone/rclone/cmd/serve/ftp"
-	"github.com/rclone/rclone/cmd/serve/http"
-	"github.com/rclone/rclone/cmd/serve/restic"
-	"github.com/rclone/rclone/cmd/serve/sftp"
-	"github.com/rclone/rclone/cmd/serve/webdav"
+	"github.com/MilkGames/rclone/cmd"
+	"github.com/MilkGames/rclone/cmd/serve/dlna"
+	"github.com/MilkGames/rclone/cmd/serve/docker"
+	"github.com/MilkGames/rclone/cmd/serve/ftp"
+	"github.com/MilkGames/rclone/cmd/serve/http"
+	"github.com/MilkGames/rclone/cmd/serve/restic"
+	"github.com/MilkGames/rclone/cmd/serve/sftp"
+	"github.com/MilkGames/rclone/cmd/serve/webdav"
 	"github.com/spf13/cobra"
 )
 

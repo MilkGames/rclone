@@ -11,7 +11,7 @@ import (
 	"strings"
 
 	systemd "github.com/iguanesolutions/go-systemd/v5"
-	"github.com/rclone/rclone/fs"
+	"github.com/MilkGames/rclone/fs"
 	"github.com/sirupsen/logrus"
 )
 

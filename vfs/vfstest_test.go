@@ -5,11 +5,11 @@ package vfs_test
 import (
 	"testing"
 
-	_ "github.com/rclone/rclone/backend/all" // import all the backends
-	"github.com/rclone/rclone/cmd/mountlib"
-	"github.com/rclone/rclone/fstest"
-	"github.com/rclone/rclone/vfs"
-	"github.com/rclone/rclone/vfs/vfstest"
+	_ "github.com/MilkGames/rclone/backend/all" // import all the backends
+	"github.com/MilkGames/rclone/cmd/mountlib"
+	"github.com/MilkGames/rclone/fstest"
+	"github.com/MilkGames/rclone/vfs"
+	"github.com/MilkGames/rclone/vfs/vfstest"
 )
 
 // TestExt runs more functional tests all the tests against all the

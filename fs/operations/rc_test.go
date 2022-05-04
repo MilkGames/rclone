@@ -10,12 +10,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fs/cache"
-	"github.com/rclone/rclone/fs/operations"
-	"github.com/rclone/rclone/fs/rc"
-	"github.com/rclone/rclone/fstest"
-	"github.com/rclone/rclone/lib/rest"
+	"github.com/MilkGames/rclone/fs"
+	"github.com/MilkGames/rclone/fs/cache"
+	"github.com/MilkGames/rclone/fs/operations"
+	"github.com/MilkGames/rclone/fs/rc"
+	"github.com/MilkGames/rclone/fstest"
+	"github.com/MilkGames/rclone/lib/rest"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

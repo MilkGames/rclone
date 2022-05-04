@@ -13,7 +13,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/rclone/rclone/fs"
+	"github.com/MilkGames/rclone/fs"
 	"golang.org/x/sync/errgroup"
 )
 

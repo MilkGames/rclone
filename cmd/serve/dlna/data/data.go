@@ -8,7 +8,7 @@ import (
 	"io/ioutil"
 	"text/template"
 
-	"github.com/rclone/rclone/fs"
+	"github.com/MilkGames/rclone/fs"
 )
 
 // GetTemplate returns the rootDesc XML template

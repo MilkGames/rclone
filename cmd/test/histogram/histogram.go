@@ -7,10 +7,10 @@ import (
 	"os"
 	"path"
 
-	"github.com/rclone/rclone/cmd"
-	"github.com/rclone/rclone/cmd/test"
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fs/walk"
+	"github.com/MilkGames/rclone/cmd"
+	"github.com/MilkGames/rclone/cmd/test"
+	"github.com/MilkGames/rclone/fs"
+	"github.com/MilkGames/rclone/fs/walk"
 	"github.com/spf13/cobra"
 )
 

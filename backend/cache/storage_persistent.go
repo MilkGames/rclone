@@ -17,8 +17,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fs/walk"
+	"github.com/MilkGames/rclone/fs"
+	"github.com/MilkGames/rclone/fs/walk"
 	bolt "go.etcd.io/bbolt"
 )
 

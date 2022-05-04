@@ -15,12 +15,12 @@ import (
 	"runtime/debug"
 	"strings"
 
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fs/accounting"
-	"github.com/rclone/rclone/fs/config/configfile"
-	"github.com/rclone/rclone/fs/log"
-	"github.com/rclone/rclone/fs/rc"
-	"github.com/rclone/rclone/fs/rc/jobs"
+	"github.com/MilkGames/rclone/fs"
+	"github.com/MilkGames/rclone/fs/accounting"
+	"github.com/MilkGames/rclone/fs/config/configfile"
+	"github.com/MilkGames/rclone/fs/log"
+	"github.com/MilkGames/rclone/fs/rc"
+	"github.com/MilkGames/rclone/fs/rc/jobs"
 )
 
 // Initialize initializes rclone as a library

@@ -7,8 +7,8 @@ import (
 	"strings"
 
 	auth "github.com/abbot/go-http-auth"
-	"github.com/rclone/rclone/fs"
-	httplib "github.com/rclone/rclone/lib/http"
+	"github.com/MilkGames/rclone/fs"
+	httplib "github.com/MilkGames/rclone/lib/http"
 )
 
 // parseAuthorization parses the Authorization header into user, pass

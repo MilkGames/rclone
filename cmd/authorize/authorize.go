@@ -3,9 +3,9 @@ package authorize
 import (
 	"context"
 
-	"github.com/rclone/rclone/cmd"
-	"github.com/rclone/rclone/fs/config"
-	"github.com/rclone/rclone/fs/config/flags"
+	"github.com/MilkGames/rclone/cmd"
+	"github.com/MilkGames/rclone/fs/config"
+	"github.com/MilkGames/rclone/fs/config/flags"
 	"github.com/spf13/cobra"
 )
 

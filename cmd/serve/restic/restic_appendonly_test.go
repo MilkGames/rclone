@@ -11,9 +11,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/rclone/rclone/cmd"
-	"github.com/rclone/rclone/cmd/serve/httplib/httpflags"
-	"github.com/rclone/rclone/fs/config/configfile"
+	"github.com/MilkGames/rclone/cmd"
+	"github.com/MilkGames/rclone/cmd/serve/httplib/httpflags"
+	"github.com/MilkGames/rclone/fs/config/configfile"
 	"github.com/stretchr/testify/require"
 )
 

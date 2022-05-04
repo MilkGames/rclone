@@ -8,8 +8,8 @@ import (
 	"time"
 
 	"github.com/putdotio/go-putio/putio"
-	"github.com/rclone/rclone/fs/fserrors"
-	"github.com/rclone/rclone/lib/pacer"
+	"github.com/MilkGames/rclone/fs/fserrors"
+	"github.com/MilkGames/rclone/lib/pacer"
 )
 
 func checkStatusCode(resp *http.Response, expected ...int) error {

@@ -5,9 +5,9 @@ import (
 	"path"
 	"testing"
 
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fs/config/configmap"
-	"github.com/rclone/rclone/fs/config/obscure"
+	"github.com/MilkGames/rclone/fs"
+	"github.com/MilkGames/rclone/fs/config/configmap"
+	"github.com/MilkGames/rclone/fs/config/obscure"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

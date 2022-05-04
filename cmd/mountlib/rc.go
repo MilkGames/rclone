@@ -8,9 +8,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fs/rc"
-	"github.com/rclone/rclone/vfs/vfsflags"
+	"github.com/MilkGames/rclone/fs"
+	"github.com/MilkGames/rclone/fs/rc"
+	"github.com/MilkGames/rclone/vfs/vfsflags"
 )
 
 var (

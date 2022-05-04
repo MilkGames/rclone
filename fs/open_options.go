@@ -9,7 +9,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/rclone/rclone/fs/hash"
+	"github.com/MilkGames/rclone/fs/hash"
 )
 
 // OpenOption is an interface describing options for Open

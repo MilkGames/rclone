@@ -10,11 +10,11 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fs/config"
-	"github.com/rclone/rclone/fs/config/flags"
-	fsLog "github.com/rclone/rclone/fs/log"
-	"github.com/rclone/rclone/fs/rc"
+	"github.com/MilkGames/rclone/fs"
+	"github.com/MilkGames/rclone/fs/config"
+	"github.com/MilkGames/rclone/fs/config/flags"
+	fsLog "github.com/MilkGames/rclone/fs/log"
+	"github.com/MilkGames/rclone/fs/rc"
 	"github.com/sirupsen/logrus"
 	"github.com/spf13/pflag"
 )

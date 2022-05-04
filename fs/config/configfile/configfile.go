@@ -11,9 +11,9 @@ import (
 	"sync"
 
 	"github.com/Unknwon/goconfig"
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fs/config"
-	"github.com/rclone/rclone/lib/file"
+	"github.com/MilkGames/rclone/fs"
+	"github.com/MilkGames/rclone/fs/config"
+	"github.com/MilkGames/rclone/lib/file"
 )
 
 // Install installs the config file handler

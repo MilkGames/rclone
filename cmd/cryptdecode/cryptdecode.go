@@ -4,10 +4,10 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/rclone/rclone/backend/crypt"
-	"github.com/rclone/rclone/cmd"
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fs/config/flags"
+	"github.com/MilkGames/rclone/backend/crypt"
+	"github.com/MilkGames/rclone/cmd"
+	"github.com/MilkGames/rclone/fs"
+	"github.com/MilkGames/rclone/fs/config/flags"
 	"github.com/spf13/cobra"
 )
 

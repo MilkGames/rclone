@@ -4,9 +4,9 @@ package onedrive
 import (
 	"testing"
 
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fstest"
-	"github.com/rclone/rclone/fstest/fstests"
+	"github.com/MilkGames/rclone/fs"
+	"github.com/MilkGames/rclone/fstest"
+	"github.com/MilkGames/rclone/fstest/fstests"
 )
 
 // TestIntegration runs integration tests against the remote

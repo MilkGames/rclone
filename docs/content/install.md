@@ -64,7 +64,7 @@ Run `rclone config` to setup. See [rclone config docs](/docs/) for more details.
     brew install rclone
 
 NOTE: This version of rclone will not support `mount` any more (see
-[#5373](https://github.com/rclone/rclone/issues/5373)). If mounting is wanted
+[#5373](https://github.com/MilkGames/rclone/issues/5373)). If mounting is wanted
 on macOS, either install a precompiled binary or enable the relevant option
 when [installing from source](#install-from-source).
 
@@ -195,7 +195,7 @@ installed.  [Download go](https://golang.org/dl/) if necessary.  The
 latest release is recommended. Then
 
 ```sh
-git clone https://github.com/rclone/rclone.git
+git clone https://github.com/MilkGames/rclone.git
 cd rclone
 go build
 # If on macOS and mount is wanted, instead run: make GOTAGS=cmount
@@ -208,11 +208,11 @@ the rclone build will have the correct version information in it.
 
 You can also build the latest stable rclone with:
 
-    go get github.com/rclone/rclone
+    go get github.com/MilkGames/rclone
 
 or the latest version (equivalent to the beta) with
 
-    go get github.com/rclone/rclone@master
+    go get github.com/MilkGames/rclone@master
 
 These will build the binary in `$(go env GOPATH)/bin`
 (`~/go/bin/rclone` by default) after downloading the source to the go
@@ -364,7 +364,7 @@ into its own launcher service, as kind of "child services". This has the additio
 advantage that it also implements a network provider that integrates into
 Windows standard methods for managing network drives. This is currently not
 officially supported by Rclone, but with WinFsp version 2019.3 B2 / v1.5B2 or later
-it should be possible through path rewriting as described [here](https://github.com/rclone/rclone/issues/3340).
+it should be possible through path rewriting as described [here](https://github.com/MilkGames/rclone/issues/3340).
 
 ##### Third-party service integration #####
 

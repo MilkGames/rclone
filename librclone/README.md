@@ -19,11 +19,11 @@ is not compatible with cgo).
 
 Build a shared library like this:
 
-    go build --buildmode=c-shared -o librclone.so github.com/rclone/rclone/librclone
+    go build --buildmode=c-shared -o librclone.so github.com/MilkGames/rclone/librclone
 
 Build a static library like this:
 
-    go build --buildmode=c-archive -o librclone.a github.com/rclone/rclone/librclone
+    go build --buildmode=c-archive -o librclone.a github.com/MilkGames/rclone/librclone
 
 Both the above commands will also generate `librclone.h` which should
 be `#include`d in `C` programs wishing to use the library (with some
@@ -49,10 +49,10 @@ pointing to the fuse include directory within the WinFsp installation
 
 For documentation see the Go documentation for:
 
-- [RcloneInitialize](https://pkg.go.dev/github.com/rclone/rclone/librclone#RcloneInitialize)
-- [RcloneFinalize](https://pkg.go.dev/github.com/rclone/rclone/librclone#RcloneFinalize)
-- [RcloneRPC](https://pkg.go.dev/github.com/rclone/rclone/librclone#RcloneRPC)
-- [RcloneFreeString](https://pkg.go.dev/github.com/rclone/rclone/librclone#RcloneFreeString)
+- [RcloneInitialize](https://pkg.go.dev/github.com/MilkGames/rclone/librclone#RcloneInitialize)
+- [RcloneFinalize](https://pkg.go.dev/github.com/MilkGames/rclone/librclone#RcloneFinalize)
+- [RcloneRPC](https://pkg.go.dev/github.com/MilkGames/rclone/librclone#RcloneRPC)
+- [RcloneFreeString](https://pkg.go.dev/github.com/MilkGames/rclone/librclone#RcloneFreeString)
 
 ### Linux C example
 
@@ -169,7 +169,7 @@ The `gomobile` subdirectory contains the equivalent of the C binding but
 suitable for using with [gomobile](https://pkg.go.dev/golang.org/x/mobile/cmd/gomobile)
 using something like this.
 
-    gomobile bind -v -target=android -javapkg=org.rclone github.com/rclone/rclone/librclone/gomobile
+    gomobile bind -v -target=android -javapkg=org.rclone github.com/MilkGames/rclone/librclone/gomobile
 
 The command generates an Android library (`aar`) that can be imported
 into an Android application project. Librclone will be contained

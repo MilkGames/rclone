@@ -18,8 +18,8 @@ import (
 	"time"
 
 	auth "github.com/abbot/go-http-auth"
-	"github.com/rclone/rclone/cmd/serve/http/data"
-	"github.com/rclone/rclone/fs"
+	"github.com/MilkGames/rclone/cmd/serve/http/data"
+	"github.com/MilkGames/rclone/fs"
 )
 
 // Globals

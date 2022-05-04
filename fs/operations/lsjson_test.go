@@ -6,9 +6,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fs/operations"
-	"github.com/rclone/rclone/fstest"
+	"github.com/MilkGames/rclone/fs"
+	"github.com/MilkGames/rclone/fs/operations"
+	"github.com/MilkGames/rclone/fstest"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

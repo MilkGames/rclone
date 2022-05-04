@@ -3,7 +3,7 @@ package vfscommon
 import (
 	"fmt"
 
-	"github.com/rclone/rclone/fs"
+	"github.com/MilkGames/rclone/fs"
 )
 
 // CacheMode controls the functionality of the cache

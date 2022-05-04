@@ -33,13 +33,13 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fs/cache"
-	"github.com/rclone/rclone/fs/log"
-	"github.com/rclone/rclone/fs/rc"
-	"github.com/rclone/rclone/fs/walk"
-	"github.com/rclone/rclone/vfs/vfscache"
-	"github.com/rclone/rclone/vfs/vfscommon"
+	"github.com/MilkGames/rclone/fs"
+	"github.com/MilkGames/rclone/fs/cache"
+	"github.com/MilkGames/rclone/fs/log"
+	"github.com/MilkGames/rclone/fs/rc"
+	"github.com/MilkGames/rclone/fs/walk"
+	"github.com/MilkGames/rclone/vfs/vfscache"
+	"github.com/MilkGames/rclone/vfs/vfscommon"
 )
 
 // Node represents either a directory (*Dir) or a file (*File)

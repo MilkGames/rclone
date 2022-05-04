@@ -14,10 +14,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fstest/testy"
-	"github.com/rclone/rclone/lib/file"
-	"github.com/rclone/rclone/lib/random"
+	"github.com/MilkGames/rclone/fs"
+	"github.com/MilkGames/rclone/fstest/testy"
+	"github.com/MilkGames/rclone/lib/file"
+	"github.com/MilkGames/rclone/lib/random"
 	"github.com/stretchr/testify/assert"
 )
 

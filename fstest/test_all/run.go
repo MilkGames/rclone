@@ -20,8 +20,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fstest/testserver"
+	"github.com/MilkGames/rclone/fs"
+	"github.com/MilkGames/rclone/fstest/testserver"
 )
 
 // Control concurrency per backend if required

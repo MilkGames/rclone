@@ -7,8 +7,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/rclone/rclone/fs/rc"
-	"github.com/rclone/rclone/fs/rc/rcflags"
+	"github.com/MilkGames/rclone/fs/rc"
+	"github.com/MilkGames/rclone/fs/rc/rcflags"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

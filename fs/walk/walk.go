@@ -11,10 +11,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fs/dirtree"
-	"github.com/rclone/rclone/fs/filter"
-	"github.com/rclone/rclone/fs/list"
+	"github.com/MilkGames/rclone/fs"
+	"github.com/MilkGames/rclone/fs/dirtree"
+	"github.com/MilkGames/rclone/fs/filter"
+	"github.com/MilkGames/rclone/fs/list"
 )
 
 // ErrorSkipDir is used as a return value from Walk to indicate that the

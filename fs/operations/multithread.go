@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fs/accounting"
+	"github.com/MilkGames/rclone/fs"
+	"github.com/MilkGames/rclone/fs/accounting"
 	"golang.org/x/sync/errgroup"
 )
 

@@ -6,7 +6,7 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/rclone/rclone/fs"
+	"github.com/MilkGames/rclone/fs"
 )
 
 // ClipBlocks clips the blocks pointed to the OS max

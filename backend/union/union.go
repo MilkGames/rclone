@@ -13,15 +13,15 @@ import (
 	"sync"
 	"time"
 
-	"github.com/rclone/rclone/backend/union/common"
-	"github.com/rclone/rclone/backend/union/policy"
-	"github.com/rclone/rclone/backend/union/upstream"
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fs/config/configmap"
-	"github.com/rclone/rclone/fs/config/configstruct"
-	"github.com/rclone/rclone/fs/hash"
-	"github.com/rclone/rclone/fs/operations"
-	"github.com/rclone/rclone/fs/walk"
+	"github.com/MilkGames/rclone/backend/union/common"
+	"github.com/MilkGames/rclone/backend/union/policy"
+	"github.com/MilkGames/rclone/backend/union/upstream"
+	"github.com/MilkGames/rclone/fs"
+	"github.com/MilkGames/rclone/fs/config/configmap"
+	"github.com/MilkGames/rclone/fs/config/configstruct"
+	"github.com/MilkGames/rclone/fs/hash"
+	"github.com/MilkGames/rclone/fs/operations"
+	"github.com/MilkGames/rclone/fs/walk"
 )
 
 // Register with Fs

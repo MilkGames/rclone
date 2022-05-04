@@ -9,11 +9,11 @@ import (
 	"testing"
 	"time"
 
-	_ "github.com/rclone/rclone/backend/local"
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fs/config/configfile"
-	"github.com/rclone/rclone/fs/filter"
-	httplib "github.com/rclone/rclone/lib/http"
+	_ "github.com/MilkGames/rclone/backend/local"
+	"github.com/MilkGames/rclone/fs"
+	"github.com/MilkGames/rclone/fs/config/configfile"
+	"github.com/MilkGames/rclone/fs/filter"
+	httplib "github.com/MilkGames/rclone/lib/http"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

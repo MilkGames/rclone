@@ -12,10 +12,10 @@ import (
 	"path"
 	"strings"
 
-	"github.com/rclone/rclone/backend/seafile/api"
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/lib/readers"
-	"github.com/rclone/rclone/lib/rest"
+	"github.com/MilkGames/rclone/backend/seafile/api"
+	"github.com/MilkGames/rclone/fs"
+	"github.com/MilkGames/rclone/lib/readers"
+	"github.com/MilkGames/rclone/lib/rest"
 )
 
 // Start of the API URLs

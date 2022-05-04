@@ -16,19 +16,19 @@ import (
 	"time"
 
 	"github.com/rclone/ftp"
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fs/accounting"
-	"github.com/rclone/rclone/fs/config"
-	"github.com/rclone/rclone/fs/config/configmap"
-	"github.com/rclone/rclone/fs/config/configstruct"
-	"github.com/rclone/rclone/fs/config/obscure"
-	"github.com/rclone/rclone/fs/fserrors"
-	"github.com/rclone/rclone/fs/fshttp"
-	"github.com/rclone/rclone/fs/hash"
-	"github.com/rclone/rclone/lib/encoder"
-	"github.com/rclone/rclone/lib/env"
-	"github.com/rclone/rclone/lib/pacer"
-	"github.com/rclone/rclone/lib/readers"
+	"github.com/MilkGames/rclone/fs"
+	"github.com/MilkGames/rclone/fs/accounting"
+	"github.com/MilkGames/rclone/fs/config"
+	"github.com/MilkGames/rclone/fs/config/configmap"
+	"github.com/MilkGames/rclone/fs/config/configstruct"
+	"github.com/MilkGames/rclone/fs/config/obscure"
+	"github.com/MilkGames/rclone/fs/fserrors"
+	"github.com/MilkGames/rclone/fs/fshttp"
+	"github.com/MilkGames/rclone/fs/hash"
+	"github.com/MilkGames/rclone/lib/encoder"
+	"github.com/MilkGames/rclone/lib/env"
+	"github.com/MilkGames/rclone/lib/pacer"
+	"github.com/MilkGames/rclone/lib/readers"
 )
 
 var (
@@ -1097,7 +1097,7 @@ func (f *ftpReadCloser) Close() error {
 	}
 	// mask the error if it was caused by a premature close
 	// NB StatusAboutToSend is to work around a bug in pureftpd
-	// See: https://github.com/rclone/rclone/issues/3445#issuecomment-521654257
+	// See: https://github.com/MilkGames/rclone/issues/3445#issuecomment-521654257
 	switch errX := err.(type) {
 	case *textproto.Error:
 		switch errX.Code {

@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/rclone/rclone/fs/cache"
-	"github.com/rclone/rclone/fstest/mockfs"
+	"github.com/MilkGames/rclone/fs/cache"
+	"github.com/MilkGames/rclone/fstest/mockfs"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

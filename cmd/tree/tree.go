@@ -11,12 +11,12 @@ import (
 	"time"
 
 	"github.com/a8m/tree"
-	"github.com/rclone/rclone/cmd"
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fs/config/flags"
-	"github.com/rclone/rclone/fs/dirtree"
-	"github.com/rclone/rclone/fs/log"
-	"github.com/rclone/rclone/fs/walk"
+	"github.com/MilkGames/rclone/cmd"
+	"github.com/MilkGames/rclone/fs"
+	"github.com/MilkGames/rclone/fs/config/flags"
+	"github.com/MilkGames/rclone/fs/dirtree"
+	"github.com/MilkGames/rclone/fs/log"
+	"github.com/MilkGames/rclone/fs/walk"
 	"github.com/spf13/cobra"
 )
 

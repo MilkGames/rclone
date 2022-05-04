@@ -29,7 +29,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/rclone/rclone/lib/rest"
+	"github.com/MilkGames/rclone/lib/rest"
 	"golang.org/x/net/html"
 	"golang.org/x/sys/unix"
 )

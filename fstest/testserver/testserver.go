@@ -14,8 +14,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fs/fspath"
+	"github.com/MilkGames/rclone/fs"
+	"github.com/MilkGames/rclone/fs/fspath"
 )
 
 var (

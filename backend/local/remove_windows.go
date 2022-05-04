@@ -8,7 +8,7 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/rclone/rclone/fs"
+	"github.com/MilkGames/rclone/fs"
 )
 
 const (

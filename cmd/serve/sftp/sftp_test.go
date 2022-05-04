@@ -14,11 +14,11 @@ import (
 	"testing"
 
 	"github.com/pkg/sftp"
-	_ "github.com/rclone/rclone/backend/local"
-	"github.com/rclone/rclone/cmd/serve/servetest"
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fs/config/configmap"
-	"github.com/rclone/rclone/fs/config/obscure"
+	_ "github.com/MilkGames/rclone/backend/local"
+	"github.com/MilkGames/rclone/cmd/serve/servetest"
+	"github.com/MilkGames/rclone/fs"
+	"github.com/MilkGames/rclone/fs/config/configmap"
+	"github.com/MilkGames/rclone/fs/config/obscure"
 	"github.com/stretchr/testify/require"
 )
 

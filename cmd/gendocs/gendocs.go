@@ -12,8 +12,8 @@ import (
 	"text/template"
 	"time"
 
-	"github.com/rclone/rclone/cmd"
-	"github.com/rclone/rclone/lib/file"
+	"github.com/MilkGames/rclone/cmd"
+	"github.com/MilkGames/rclone/lib/file"
 	"github.com/spf13/cobra"
 	"github.com/spf13/cobra/doc"
 	"github.com/spf13/pflag"

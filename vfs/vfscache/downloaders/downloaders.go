@@ -7,13 +7,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fs/accounting"
-	"github.com/rclone/rclone/fs/asyncreader"
-	"github.com/rclone/rclone/fs/chunkedreader"
-	"github.com/rclone/rclone/fs/fserrors"
-	"github.com/rclone/rclone/lib/ranges"
-	"github.com/rclone/rclone/vfs/vfscommon"
+	"github.com/MilkGames/rclone/fs"
+	"github.com/MilkGames/rclone/fs/accounting"
+	"github.com/MilkGames/rclone/fs/asyncreader"
+	"github.com/MilkGames/rclone/fs/chunkedreader"
+	"github.com/MilkGames/rclone/fs/fserrors"
+	"github.com/MilkGames/rclone/lib/ranges"
+	"github.com/MilkGames/rclone/vfs/vfscommon"
 )
 
 // FIXME implement max downloaders

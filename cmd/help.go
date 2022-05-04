@@ -8,12 +8,12 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fs/config/configflags"
-	"github.com/rclone/rclone/fs/filter/filterflags"
-	"github.com/rclone/rclone/fs/log/logflags"
-	"github.com/rclone/rclone/fs/rc/rcflags"
-	"github.com/rclone/rclone/lib/atexit"
+	"github.com/MilkGames/rclone/fs"
+	"github.com/MilkGames/rclone/fs/config/configflags"
+	"github.com/MilkGames/rclone/fs/filter/filterflags"
+	"github.com/MilkGames/rclone/fs/log/logflags"
+	"github.com/MilkGames/rclone/fs/rc/rcflags"
+	"github.com/MilkGames/rclone/lib/atexit"
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
 )

@@ -7,7 +7,7 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/rclone/rclone/fs"
+	"github.com/MilkGames/rclone/fs"
 )
 
 // FsPath converts Fs to a suitable rclone argument
